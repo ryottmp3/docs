@@ -1,0 +1,280 @@
+\documentclass[12pt, letterpaper, sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{purple} 
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}    % Width of the entire CV
+\setlength{\hintscolumnwidth}{4.1cm} % Width of the timeline on your left
+\usepackage{pdfpages/pdfpages}
+\usepackage{moderntimeline/moderntimeline}
+\usepackage{xpatch/xpatch}
+\usepackage{color, graphicx}
+\tlmaxdates{2017}{2024}              % Beggining and start of your timeline                        
+
+\newcommand{\cvreferencecolumn}[2]{%
+  \cvitem[0.8em]{}{%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
+    }%
+}
+
+\newcommand{\cvreference}[8]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{\href{mailto:#6}{\nolinkurl{#6}}}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7\newline}
+    \ifthenelse{\equal{#8}{}}{}{\mobilephonesymbol~#8}}
+
+% List of journals that I may need to use in the bibtex file 
+\def\aj{AJ}
+\def\araa{ARA\&A}
+\def\apj{ApJ}
+\def\apjl{ApJ}
+\def\apjs{ApJS}
+\def\apss{Ap\&SS}
+\def\aap{A\&A}
+\def\aapr{A\&A~Rev.}
+\def\aaps{A\&AS}
+\def\mnras{MNRAS}
+\def\pasp{PASP}
+\def\pasj{PASJ}
+\def\qjras{QJRAS}
+\def\nat{Nature}
+\def\aplett{Astrophys.~Lett.}
+\def\aas{AAS}
+\def\solphys{Solar Physics}
+\def\memsai{Mem.~Soc.~Astron.~Italiana}
+
+
+% Personal Information
+\name{H. Ryott}{Glayzer}
+\title{\emph{Curriculum Vitae}}                              
+\address{South Dakota Mines \\ Department of Physics \\ 306 East Saint Joseph Street - Office 137\\}{}{Rapid City, SD - 57701}
+\phone[mobile]{+1~(605)~858~3899}                   
+%\phone[fixed]{+55~(11)~3091~2722}
+\email{ryott.glayzer@mines.sdsmt.edu}                % optional, remove / comment the line if not wanted
+\homepage{ryott.gay}    % optional, remove / comment the line if not wanted
+\social[linkedin]{h-ryott-glayzer}  % optional, remove / comment the line if not wanted     
+%\social[twitter]{mdastro}  % optional, remove / comment the line if not wanted
+\social[github]{ryottmp3}   % optional, remove / comment the line if not wanted           
+\extrainfo{\emailsymbol \emaillink{ryott@ryott.gay}}
+
+\quote{"A physicist only needs curiosity -- the rest can be taught" - \emph{H. Ryott Glayzer}}                       
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+
+\begin{document}
+
+\makecvtitle
+
+\section{Educational Background}
+
+\bigskip
+
+%\tlcventry{2015}{0}{PhD Extragalactic Astrophysics}{Institute of Astronomy, Geophysics, and Atmospheric Sciences - University of São Palo \emph{(hereafter IAG-USP)}}{}{São Paulo, Brazil}{}
+
+%\bigskip
+
+%\tlcventry{2013}{2015}{MSc Extragalactic Astrophysics}{IAG-USP}{}{São Paulo, Brazil}{}
+
+%\bigskip
+
+\tlcventry{2021}{0}{BSc Physics}{South Dakota Mines}{Rapid City, SD}{USA}{Focus in Particle Astrophysics}
+
+\bigskip
+
+\tlcventry{2017}{2021}{HS Diploma}{Douglas High School}{Box Elder, SD}{USA}{Graduated with Honors}
+
+\bigskip
+
+%\section{Theses}
+
+%\medskip
+
+%\subsection{\textbf{PhD Thesis}}
+
+%\cvitem{\textbf{TITLE}}{The UV Emission in Early-Type Galaxies: A Modern Approach}
+%\cvitem{\textbf{ADVISOR}}{Professor Paula R. T. Coelho.}
+%\cvitem{\textbf{FUNDING AGENGY}}{Coordenação de Aperfeiçoamento de Pessoal de Nível Superior \newline (hereafter CAPES)}
+
+%\bigskip
+
+%\subsection{\textbf{MSc Thesis}}
+
+%\cvitem{\textbf{TITLE}}{The Relation Between the Spectral Synthesis of Galaxies in the Optical Region and Their UV Emission}
+%\cvitem{\textbf{ADVISOR}}{Professor Laerte Sodr\'e Jr.}
+%\cvitem{\textbf{FUNDING AGENGY}}{CAPES}
+
+%\bigskip
+
+%\subsection{\textbf{BSc Thesis}}
+
+%\cvitem{\textbf{TITLE}}{Infrared Photometry of Young Star Clusters}
+%\cvitem{\textbf{ADVISORS}}{Professors Jacques Lépine \& Roberto Ortiz}
+
+%\bigskip
+
+\section{Research Projects}
+
+\medskip
+
+\subsection{\textbf{Undergraduate Research Project}}
+
+\tlcventry{2023}{0}{Analysis of Emanation of $^{222}$Radon from Materials used in LUX-ZEPLIN and SuperCDMS}{}{}{}{}
+
+\cvitem{\textbf{ADVISOR}}{Dr. Richard Schnee}
+\cvitem{\textbf{FUNDING AGENGY}}{DOE Cosmic Frontier}
+
+\bigskip
+
+\section{Research Interests}
+
+\cvitem{\textbf{\footnotesize{PARTICLE ASTROPHYSICS}}}{    
+    \begin{itemize}
+    \item Dark Matter-Higgs Interaction
+    \item Direct WIMP Detection
+    \item Low Radioactivity Techniques
+    \item Physics Outside the Standard Model
+    \end{itemize}
+    }
+
+\cvitem{\textbf{OTHERS}}{
+    \begin{itemize}
+    \item Linux System Administration
+    \item Open-Source Software
+    \end{itemize}
+    }
+
+
+\section{Affiliations}
+\subsection{Scientific}
+
+\cvitem{\textbf{\footnotesize{USA}}}{American Physical Society}
+
+%\cvitem{\textbf{\footnotesize{INTERNATIONAL ASSOCIATIONS}}}{International Astrostatistics Association (\textbf{IAA}), Cosmostatistics Initiative (\textbf{COIN}), Javalambre Physics of the Accelerating Universe (\textbf{J-PAS})}
+
+\subsection{Other}
+\cvitem{}{Arch Linux (\url{https://www.archlinux.org/})}
+\cvitem{}{South Dakota Youth Activism \newline (\url{http://www.sdya.org})}
+
+%\section{Teaching Experience}
+
+%\medskip
+
+%\subsection{Teaching Assistant}
+
+%\tldatecventry{2014}{Galactic and Extragalactic Astrophysics}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Ronaldo Eustáquio de Souza}
+%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
+
+%\bigskip
+
+%\tldatecventry{2014}{Topics on Astronomy to Undegraduate Students with Major in Pedagogy}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Nelson Vani Leister}
+%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
+
+%\tldatecventry{2010}{Topics on Astronomy to Geophysicists}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Enos Picazzio} \cvitem{\textbf{FUNDING AGENCY}}{None (volunteer tutoring)}
+
+%\bigskip
+
+%\tldatecventry{2010}{Position Astronomy}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Ramachrisna Teixeira}
+%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
+
+%\bigskip
+
+%\tldatecventry{2009}{Introduction to Astronomy}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Vera Jatenco Pereira}
+%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
+
+%\bigskip
+
+
+%\subsection{Outreach Projects}
+%\tlcventry{2010}{2011}{Astronomia Para Todos \emph{(Astronomy for Everybody)}}{\newline IAG-USP}{São Paulo}{Brazil}{}
+
+%\cvitem{\textbf{SUPERVISOR}}{Professor Enos Picazzio}
+
+%\cvitem{\textbf{DESCRIPTION}}{This project had as main goal to develop a book and a website in order to update and spread Astronomy topics to school teachers}
+
+%\cvitem{{\textbf{FUNDING AGENCY}}}{CNPq}
+
+%\bigskip
+
+%\subsection{Private Teaching}
+
+%\tlcventry{2007}{0}{Physics \& Mathematics}{}{}{}{Sporadic private teaching to school students (children and adolescents)}
+
+%\bigskip
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Native}{}
+
+\medskip
+
+\cvitemwithcomment{Lakota}{Basic Fluency}{}
+
+\bigskip
+
+\section{Skills}
+
+\cvitemwithcomment{Programming}{Python, BASH, \LaTeX}{}
+
+\medskip
+
+\cvitemwithcomment{Tools}{GitHub, GitLab}{Program Version Control and Program Repositories.}
+
+\medskip
+
+\cvitemwithcomment{Other Skills}{Linux System Administration}{}
+
+\bigskip
+
+\section{Participation In Events}
+
+
+\tldatecventry{2024}{Student Research Symposium}{SD Mines}{Rapid City}{USA}{\textbf{POSTER TITLE} TBD} 
+
+\bigskip
+
+%\section{Event Organization}
+
+%\tldatecventry{2015}{$1^{st}$ Python Boot Camp}{IAG-USP}{São Paulo}{Brazil}{Member of the Local Organizing Committee and the Scientific Organizing Committee \\ For more information, please access the website:\\  \url{http://www.astro.iag.usp.br/~pythonbootcamp}.}
+
+%\bigskip
+
+\section{Other Professional Experiences}
+
+\tlcventry{2023}{0}{\textbf{Arch Linux Package Developer and Maintainer}}{\textit{Arch Linux Foundation}}{}{}{}
+
+\tlcventry{2021}{0}{\textbf{Event Organizer and Promoter}}{Rapid City Gutter Shows}{Rapid City}{USA}{}
+%\section{Other Certificates}
+
+%\nocite{*}
+%\bibliographystyle{apalike}
+%\bibliography{publications}
+
+%\section{Invited Talks}
+
+%\tldatecventry{2016}{Is the cluster environment quenching the Seyfert activity in elliptical and spiral galaxies?}{Extragalactic Group Seminar}{IAG-USP}{S\~ao Paulo, Brazil}{}
+
+%\medskip
+
+%\tldatecventry{2015}{Astrostatistics: An Arising Field in Astrophysics}{Journal Club}{IAG-USP}{S\~ao Paulo, Brazil}{}
+
+%\medskip
+
+%\tldatecventry{2013}{An Empirical Connection Between the UV Color of Early Type Galaxies and the Stellar Initial Mass Function}{Journal Club}{IAG-USP}{S\~ao Paulo, Brazil}{}
+
+\section{References}
+
+\begin{cvcolumns}
+    \cvcolumn{Richard W. Schnee}{Professor \\ Physics Dept., SD Mines \\ Rapid City, USA \\ \emailsymbol richard.schnee@sdsmt.edu \\ \phonesymbol +1 605 394 5206}
+    \cvcolumn{Joseph Street}{Post-Doctoral Researcher \\ SD Mines \\ Rapid City, USA \\ \emailsymbol joseph.street@mines.sdsmt.edu }
+\end{cvcolumns}
+
+
+\clearpage
+
+
+\end{document}

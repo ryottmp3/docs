@@ -1,0 +1,546 @@
+{
+  "basics": {
+    "url": {
+      "href": "https://ryott.gay/",
+      "label": ""
+    },
+    "name": "H. Ryott Glayzer",
+    "email": "ryott@ryott.gay",
+    "phone": "(605) 858-3899",
+    "picture": {
+      "url": "https://storage.rxresu.me/clp9fylp09zs09hung3nubhup/pictures/clp9ktqct0w09qo5qb66sai47.jpg",
+      "size": 64,
+      "effects": {
+        "border": true,
+        "hidden": false,
+        "grayscale": false
+      },
+      "aspectRatio": 1,
+      "borderRadius": 9999
+    },
+    "headline": "Detail-Oriented Physics Student with Social Media Experience",
+    "location": "306 E St. Joseph St. Suite 101",
+    "customFields": []
+  },
+  "metadata": {
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "format": "letter",
+      "margin": 18,
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "notes": "",
+    "theme": {
+      "text": "#000000",
+      "primary": "#57534e",
+      "background": "#ffffff"
+    },
+    "layout": [
+      [
+        [
+          "summary",
+          "experience",
+          "education",
+          "projects",
+          "volunteer",
+          "references"
+        ],
+        [
+          "profiles",
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ]
+    ],
+    "template": "gengar",
+    "typography": {
+      "font": {
+        "size": 12,
+        "family": "Roboto Mono",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ]
+      },
+      "hideIcons": false,
+      "lineHeight": 1.15,
+      "underlineLinks": true
+    }
+  },
+  "sections": {
+    "awards": {
+      "id": "awards",
+      "name": "Awards",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "custom": {},
+    "skills": {
+      "id": "skills",
+      "name": "Skills",
+      "items": [
+        {
+          "id": "ur9g3wns4cjk5u97qsgcmnd7",
+          "name": "Data Analysis",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "cxezo01iucd9mx8shjw7xv0z",
+          "name": "Python 3",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "hfv182bsiar9ly52lrb3yrbd",
+          "name": "Visual Media Creation",
+          "level": 0,
+          "visible": false,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "bq7f3bzv6nreidlsyuh8rjbx",
+          "name": "Collaboration with Others",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "c4d5x66ksehi6liuag260m9r",
+          "name": "Social Media Proficiency",
+          "level": 0,
+          "visible": false,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "sxpx21ftpqp1xrmm73vea021",
+          "name": "Proficiency in Research",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "ee169l88o8wufgdvq8y70rtk",
+          "name": "Good Communication Skills",
+          "level": 0,
+          "visible": false,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "p5b6k6tpq0txex5xjwvzrykh",
+          "name": "Attention to Detail",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "nldcye39jtcuz8ycioe76cst",
+          "name": "Static Website Design",
+          "level": 0,
+          "visible": false,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "auftvljhovnjoolfkcdxrc4f",
+          "name": "HTML and CSS",
+          "level": 0,
+          "visible": false,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "m9lzhq8hknd93e7siof7r94h",
+          "name": "Vim",
+          "level": 0,
+          "visible": false,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "p5hbx2dpgdfi487dd4xt69x0",
+          "name": "Linux Sysadmin",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        }
+      ],
+      "columns": 2,
+      "visible": true
+    },
+    "summary": {
+      "id": "summary",
+      "name": "Summary",
+      "columns": 1,
+      "content": "<p>Open source advocate and Linux system administrator with a background in data analysis and particle astrophysics research.</p>",
+      "visible": true
+    },
+    "profiles": {
+      "id": "profiles",
+      "name": "Profiles",
+      "items": [
+        {
+          "id": "ye6jhrkkmhdh0wowl6yx10w4",
+          "url": {
+            "href": "https://github.com/ryottmp3",
+            "label": ""
+          },
+          "icon": "Github",
+          "network": "GitHub",
+          "visible": true,
+          "username": "ryottmp3"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "projects": {
+      "id": "projects",
+      "name": "Projects",
+      "items": [
+        {
+          "id": "qdiemxuwblq854hvxprm1lsx",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "2020-08-20 - 2021-05-21",
+          "name": "Douglas High School GSA",
+          "summary": "- Created a safe space for LGBTQ+ youth in a largely bigoted high school\n- Led campaigns for transgender rights on a school-level\n- Had a lasting impact on the student body",
+          "visible": false,
+          "keywords": [],
+          "description": "Founder/President"
+        },
+        {
+          "id": "avmxr7rgznso0nti80sravin",
+          "url": {
+            "href": "https://www.sdya.org/",
+            "label": ""
+          },
+          "date": "Feb 2023 - Aug 2023",
+          "name": "South Dakota Youth Activism",
+          "summary": "<ul><li><p>Organized and Managed a team of volunteers to create and publish magazines, posters, and brochures </p></li><li><p>Negotiated prices with printers</p></li></ul>",
+          "visible": true,
+          "keywords": [],
+          "description": "Director of Publications"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "education": {
+      "id": "education",
+      "name": "Education",
+      "items": [
+        {
+          "id": "mwswiko5no7i240myud2d0yz",
+          "url": {
+            "href": "https://www.sdsmt.edu",
+            "label": ""
+          },
+          "area": "Particle Astrophysics",
+          "date": "Aug 2021 - Present",
+          "score": "",
+          "summary": "<ul><li><p>General Study in the field of particle physics with a focus in Dark Matter.</p></li><li><p>Currently a part-time student with an undergraduate research position.</p></li></ul>",
+          "visible": true,
+          "studyType": "Bachelor's Degree",
+          "institution": "South Dakota Mines"
+        },
+        {
+          "id": "dslzkb37yliebgchetdcocv6",
+          "url": {
+            "href": "https://www.bhsu.edu",
+            "label": ""
+          },
+          "area": "",
+          "date": "2021-01-11 - 2021-05-07",
+          "score": "",
+          "summary": "- Took Dual-Credit Courses",
+          "visible": false,
+          "studyType": "Non-Degree Seeking",
+          "institution": "Black Hills State University"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "interests": {
+      "id": "interests",
+      "name": "Interests",
+      "items": [
+        {
+          "id": "u9elc8jh43hd4ov1331064fg",
+          "name": "Conservation",
+          "visible": false,
+          "keywords": []
+        },
+        {
+          "id": "hmxi3df09ovcjpyzzpp331rf",
+          "name": "Nature",
+          "visible": false,
+          "keywords": []
+        },
+        {
+          "id": "wgzs8c9whqeu75dmtadv7w0l",
+          "name": "Physics",
+          "visible": true,
+          "keywords": []
+        },
+        {
+          "id": "wnaeh1h6pw9p2ca1m8fdlsaj",
+          "name": "Music",
+          "visible": true,
+          "keywords": []
+        },
+        {
+          "id": "h0oujozhcmg6s7kmidaowi0k",
+          "name": "GNU/Linux",
+          "visible": true,
+          "keywords": []
+        },
+        {
+          "id": "hv6xmcsdm14j8i8usz150x1w",
+          "name": "Open Source",
+          "visible": true,
+          "keywords": []
+        }
+      ],
+      "columns": 2,
+      "visible": true
+    },
+    "languages": {
+      "id": "languages",
+      "name": "Languages",
+      "items": [
+        {
+          "id": "n9akq64xl5kxxgmo3ad7gnp1",
+          "name": "English",
+          "level": 5,
+          "visible": true,
+          "description": "Native Speaker"
+        },
+        {
+          "id": "u3pfffq4wet2l0xnxw7lumc1",
+          "name": "Lakota",
+          "level": 0,
+          "visible": true,
+          "description": "Beginner"
+        },
+        {
+          "id": "wt1o7anhhy56fzldzylkrsgd",
+          "name": "Python",
+          "level": 0,
+          "visible": false,
+          "description": "Intermediate"
+        }
+      ],
+      "columns": 2,
+      "visible": true
+    },
+    "volunteer": {
+      "id": "volunteer",
+      "name": "Volunteering",
+      "items": [
+        {
+          "id": "s3jksmjctmipi6qsf0ymglsf",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "Jun 2021 - Present",
+          "summary": "<ul><li><p>Social Media Management</p></li><li><p>Manage live music events</p></li><li><p>Network with artists in both the local and national music scene</p></li></ul>",
+          "visible": true,
+          "location": "",
+          "position": "Promoter",
+          "organization": "Rapid City Gutter Shows"
+        },
+        {
+          "id": "lfayj91g9vjurpsnwfzkdgxd",
+          "url": {
+            "href": "http://www.kteq.org/",
+            "label": ""
+          },
+          "date": "Nov 2020 - Jan 2023",
+          "summary": "<ul><li><p>Create playlists to air over the radio </p></li><li><p>Host a weekly Radio show</p></li></ul>",
+          "visible": true,
+          "location": "",
+          "position": "Radio DJ",
+          "organization": "KTEQ-FM"
+        }
+      ],
+      "columns": 2,
+      "visible": true
+    },
+    "experience": {
+      "id": "experience",
+      "name": "Experience",
+      "items": [
+        {
+          "id": "heo22qkx89qb1kx8j9u0bkve",
+          "url": {
+            "href": "https://www.sdsmt.edu",
+            "label": ""
+          },
+          "date": "Jan 2022 - Present",
+          "company": "South Dakota Mines",
+          "summary": "<ul><li><p>Write and implement code aiding in the search for Dark Matter </p></li><li><p>Perform Data Analysis on Radon Emanation and Mitigation Systems </p></li><li><p>Sub-contracting on assay work for the LZ and SuperCDMS Dark Matter Experiments </p></li><li><p>General research and maintenance work in a particle physics laboratory </p></li><li><p>Collaborate with fellow researchers across the globe</p></li></ul>",
+          "visible": true,
+          "location": "",
+          "position": "Undergraduate Researcher/Lab Assistant"
+        },
+        {
+          "id": "vc3qyr0a0notvva8m4wm7ctr",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "Jan 2020 - Jul 2022",
+          "company": "The Cave Collective",
+          "summary": "<ul><li><p>Plan, record, and edit the \"Story and Song\" Series of Video Podcasts </p></li><li><p>Manage audio-visual communications in a live setting </p></li><li><p>Create and manage visual media for the non-profit's social media accounts </p></li><li><p>Spearhead the Cave's magazine, the Cave Chronicle </p></li><li><p>Attend Board meetings and collaborate with coworkers</p></li></ul>",
+          "visible": true,
+          "location": "",
+          "position": "Audio-Visual Specialist/Youth Board Member"
+        }
+      ],
+      "columns": 2,
+      "visible": true
+    },
+    "references": {
+      "id": "references",
+      "name": "References",
+      "items": [
+        {
+          "id": "ur6lq7kyfunvpacqnsp467gz",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "name": "Mary Haan",
+          "summary": "",
+          "visible": true,
+          "description": "Former Mentor, Cave Collective"
+        },
+        {
+          "id": "jf0p7ddiv8vgbva3feqoqinl",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "name": "Katie Frooman",
+          "summary": "",
+          "visible": false,
+          "description": "Former Mentor, BHCAI"
+        },
+        {
+          "id": "fnypeq0zu5ey1etnh37d2qt2",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "name": "Dexter Carmen",
+          "summary": "",
+          "visible": true,
+          "description": "Former Mentor, Cave Collective"
+        },
+        {
+          "id": "j9eormp2zli8y3t68dekz69i",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "name": "Sadie Young",
+          "summary": "",
+          "visible": false,
+          "description": "Mentor, General"
+        },
+        {
+          "id": "eu5ckltngepszhmgijl1y10m",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "name": "Richard Schnee",
+          "summary": "<p>Richard.Schnee@SDSMT.edu</p>",
+          "visible": true,
+          "description": "Employer, SDSMT"
+        }
+      ],
+      "columns": 3,
+      "visible": true
+    },
+    "publications": {
+      "id": "publications",
+      "name": "Publications",
+      "items": [
+        {
+          "id": "veny1deekcnty23w0feulq68",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "",
+          "name": "The Cave Chronicle",
+          "summary": "6 installments of a monthly magazine",
+          "visible": true,
+          "publisher": ""
+        },
+        {
+          "id": "f04kphaxlp0ric89r7vrb6nk",
+          "url": {
+            "href": "https://sdya.org/zines",
+            "label": ""
+          },
+          "date": "July 2023",
+          "name": "SDYA Legislative Recap",
+          "summary": "<p></p>",
+          "visible": true,
+          "publisher": ""
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "certifications": {
+      "id": "certifications",
+      "name": "Certifications",
+      "items": [
+        {
+          "id": "giiae71izx6vc2q6dw5jm42g",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "",
+          "name": "General Laboratry Safety Certification",
+          "issuer": "SD Mines",
+          "summary": "",
+          "visible": true
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    }
+  }
+}
