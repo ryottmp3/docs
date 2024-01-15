@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.8)  15 JAN 2024 13:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.8)  15 JAN 2024 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -518,9 +518,9 @@ nput line 48.
 \cvitemwithcommentskilllength=\skip96
 \cvitemwithcommentcommentlength=\skip97
 ))
-(/usr/share/texmf-dist/tex/latex/moderncv/moderncvcolorpurple.sty
-Package: moderncvcolorpurple 2022-02-21 v2.3.1 modern curriculum vitae and lett
-er color scheme: purple
+(/usr/share/texmf-dist/tex/latex/moderncv/moderncvcolorgrey.sty
+Package: moderncvcolorgrey 2022-02-21 v2.3.1 modern curriculum vitae and letter
+ color scheme: grey
 )
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -547,11 +547,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks36
 )
 (/usr/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-
-LaTeX Warning: You have requested package `pdfpages/pdfpages',
-               but the package provides `pdfpages'.
-
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+
 (/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen270
@@ -574,16 +571,9 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \AM@templatesizebox=\box69
 )
 (/usr/share/texmf-dist/tex/latex/moderntimeline/moderntimeline.sty
-
-LaTeX Warning: You have requested package `moderntimeline/moderntimeline',
-               but the package provides `moderntimeline'.
-
 Package: moderntimeline 2020/06/11 0.11 Add timelines to moderncv entries
-
-LaTeX Warning: You have requested package `moderntimeline/moderntimeline',
-               but the package provides `moderntimeline'.
-
 Package: moderntimeline 
+
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
@@ -594,12 +584,9 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )))
 (/usr/share/texmf-dist/tex/latex/xpatch/xpatch.sty
-
-LaTeX Warning: You have requested package `xpatch/xpatch',
-               but the package provides `xpatch'.
-
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
-) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
 
 (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -726,7 +713,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 69.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 69.
 
-No file curriculum-vitae.aux.
+(./curriculum-vitae.aux)
 \openout1 = `curriculum-vitae.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -747,6 +734,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
+
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count315
@@ -837,6 +825,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package hyperref Info: Link coloring OFF on input line 69.
+ (./curriculum-vitae.out) (./curriculum-vitae.out)
 \@outlinefile=\write4
 \openout4 = `curriculum-vitae.out'.
 
@@ -904,20 +893,14 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
-
-Package rerunfilecheck Warning: File `curriculum-vitae.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `curriculum-vitae.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  240E45E9D183ED0156340EF02C6083EA;1539.
+Package rerunfilecheck Info: File `curriculum-vitae.out' has not changed.
+(rerunfilecheck)             Checksum: 240E45E9D183ED0156340EF02C6083EA;1539.
  ) 
 Here is how much of TeX's memory you used:
- 27165 strings out of 477985
- 521782 string characters out of 5840059
+ 27178 strings out of 477985
+ 521851 string characters out of 5840059
  1882388 words of memory out of 5000000
- 46813 multiletter control sequences out of 15000+600000
+ 46823 multiletter control sequences out of 15000+600000
  526662 words of font info for 111 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  129i,20n,122p,1013b,774s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -933,10 +916,10 @@ ssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on curriculum-vitae.pdf (2 pages, 171560 bytes).
+Output written on curriculum-vitae.pdf (2 pages, 172564 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 158 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  15 named destinations out of 1000 (max. 500000)
- 45587 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 45683 words of extra memory for PDF output out of 51595 (max. 10000000)
 
