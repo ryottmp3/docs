@@ -8,8 +8,8 @@
     "email": "ryott@ryott.gay",
     "phone": "(605) 858-3899",
     "picture": {
-      "url": "https://storage.rxresu.me/clp9fylp09zs09hung3nubhup/pictures/clp9ktqct0w09qo5qb66sai47.jpg",
-      "size": 64,
+      "url": "https://storage.rxresu.me/clp9fylp09zs09hung3nubhup/pictures/clp9fylp09zs09hung3nubhup.jpg",
+      "size": 120,
       "effects": {
         "border": true,
         "hidden": false,
@@ -18,8 +18,8 @@
       "aspectRatio": 1,
       "borderRadius": 9999
     },
-    "headline": "Detail-Oriented Physics Student with Social Media Experience",
-    "location": "306 E St. Joseph St. Suite 101",
+    "headline": "Detail-Oriented Physics Student with Linux Experience",
+    "location": "306 E St. Joseph St. Suite 1",
     "customFields": []
   },
   "metadata": {
@@ -29,7 +29,7 @@
     },
     "page": {
       "format": "letter",
-      "margin": 18,
+      "margin": 30,
       "options": {
         "breakLine": true,
         "pageNumbers": true
@@ -38,7 +38,7 @@
     "notes": "",
     "theme": {
       "text": "#000000",
-      "primary": "#57534e",
+      "primary": "#475569",
       "background": "#ffffff"
     },
     "layout": [
@@ -199,7 +199,7 @@
     },
     "profiles": {
       "id": "profiles",
-      "name": "Profiles",
+      "name": "Media Profiles",
       "items": [
         {
           "id": "ye6jhrkkmhdh0wowl6yx10w4",
@@ -211,6 +211,17 @@
           "network": "GitHub",
           "visible": true,
           "username": "ryottmp3"
+        },
+        {
+          "id": "vlu4r0djzcx7r6k8omjeyfhz",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "h-ryott-glayzer",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/h-ryott-glayzer"
+          }
         }
       ],
       "columns": 1,
@@ -252,21 +263,21 @@
     },
     "education": {
       "id": "education",
-      "name": "Education",
+      "name": "Formal Education",
       "items": [
         {
           "id": "mwswiko5no7i240myud2d0yz",
-          "url": {
-            "href": "https://www.sdsmt.edu",
-            "label": ""
-          },
-          "area": "Particle Astrophysics",
-          "date": "Aug 2021 - Present",
-          "score": "",
-          "summary": "<ul><li><p>General Study in the field of particle physics with a focus in Dark Matter.</p></li><li><p>Currently a part-time student with an undergraduate research position.</p></li></ul>",
           "visible": true,
+          "institution": "South Dakota Mines",
           "studyType": "Bachelor's Degree",
-          "institution": "South Dakota Mines"
+          "area": "Particle Astrophysics",
+          "score": "",
+          "date": "Aug 2021 - Present",
+          "summary": "<ul><li><p>General Study in the field of physics with a focus in particle dark matter, physics beyond the standard model, and astrophysics.</p></li><li><p>Currently a part-time student with an undergraduate research position.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://www.sdsmt.edu"
+          }
         },
         {
           "id": "dslzkb37yliebgchetdcocv6",
@@ -395,7 +406,7 @@
     },
     "experience": {
       "id": "experience",
-      "name": "Experience",
+      "name": "Professional Experience",
       "items": [
         {
           "id": "heo22qkx89qb1kx8j9u0bkve",
@@ -477,14 +488,14 @@
         },
         {
           "id": "eu5ckltngepszhmgijl1y10m",
-          "url": {
-            "href": "",
-            "label": ""
-          },
-          "name": "Richard Schnee",
-          "summary": "<p>Richard.Schnee@SDSMT.edu</p>",
           "visible": true,
-          "description": "Employer, SDSMT"
+          "name": "Richard Schnee",
+          "description": "Employer, SD Mines",
+          "summary": "<p>Richard.Schnee@SDSMT.edu</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         }
       ],
       "columns": 3,
@@ -537,6 +548,18 @@
           "issuer": "SD Mines",
           "summary": "",
           "visible": true
+        },
+        {
+          "id": "bdmna8smqdmx1sou5zb9m4nq",
+          "visible": true,
+          "name": "Radiation Safety Certificate",
+          "issuer": "SD Mines",
+          "date": "January 2024",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         }
       ],
       "columns": 1,
