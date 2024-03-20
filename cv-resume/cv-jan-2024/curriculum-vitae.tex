@@ -1,6 +1,6 @@
 \documentclass[12pt, letterpaper, sans]{moderncv}
 \moderncvstyle{classic}
-\moderncvcolor{grey} 
+\moderncvcolor{purple} 
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.85]{geometry}    % Width of the entire CV
 \setlength{\hintscolumnwidth}{4.1cm} % Width of the timeline on your left
@@ -24,10 +24,18 @@
     \ifthenelse{\equal{#3}{}}{}{#3\newline}%
     \ifthenelse{\equal{#4}{}}{}{#4\newline}%
     \ifthenelse{\equal{#5}{}}{}{#5\newline}%
-    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{\href{mailto:#6}{\nolinkurl{#6}}}\newline}%
+    \ifthenelse{\equal{#6}{}}{}{
+        \emailsymbol~\texttt{\href{mailto:#6}{\nolinkurl{#6}}}\newline
+    }%
     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7\newline}
     \ifthenelse{\equal{#8}{}}{}{\mobilephonesymbol~#8}}
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%                            JOURNALS                         %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % List of journals that I may need to use in the bibtex file 
 \def\aj{AJ}
 \def\araa{ARA\&A}
@@ -49,163 +57,241 @@
 \def\memsai{Mem.~Soc.~Astron.~Italiana}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                            CONTACT                        %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Personal Information
 \name{H. Ryott}{Glayzer}
 \title{\emph{Curriculum Vitae}}                              
-\address{South Dakota Mines \\ Department of Physics \\ 306 East Saint Joseph Street - Office 137\\}{}{Rapid City, SD - 57701}
+\address{%
+  South Dakota Mines \\
+  Department of Physics \\
+  306 East Saint Joseph Street - Office 137\\
+}{}{%
+  Rapid City, SD - 57701
+}
 \phone[mobile]{+1~(605)~858~3899}                   
 %\phone[fixed]{+55~(11)~3091~2722}
-\email{ryott.glayzer@mines.sdsmt.edu}                % optional, remove / comment the line if not wanted
-\homepage{ryott.gay}    % optional, remove / comment the line if not wanted
-\social[linkedin]{h-ryott-glayzer}  % optional, remove / comment the line if not wanted     
-%\social[twitter]{mdastro}  % optional, remove / comment the line if not wanted
-\social[github]{ryottmp3}   % optional, remove / comment the line if not wanted           
+\email{ryott.glayzer@mines.sdsmt.edu}   
+\homepage{ryott.gay}
+\social[linkedin]{h-ryott-glayzer}  
+%\social[twitter]{mdastro}
+\social[github]{ryottmp3}
 \extrainfo{\emailsymbol \emaillink{ryott@ryott.gay}}
 
-\quote{"A physicist only needs curiosity -- the rest can be taught" - \emph{H. Ryott Glayzer}}                       
-\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\quote{``A physicist only needs curiosity---the rest can be taught''}                       
+\makeatletter\renewcommand*{
+  \bibliographyitemlabel
+}{
+  \@biblabel{\arabic{enumiv}}
+}\makeatother
 
 
 \begin{document}
 
 \makecvtitle
 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                            DEGREES                        %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Educational Background}
 
 \bigskip
 
-%\tlcventry{2015}{0}{PhD Extragalactic Astrophysics}{Institute of Astronomy, Geophysics, and Atmospheric Sciences - University of São Palo \emph{(hereafter IAG-USP)}}{}{São Paulo, Brazil}{}
+%\tlcventry{2015}{0}{PhD MAJOR}{SCHOOL}}{}{}{}
 
 %\bigskip
 
-%\tlcventry{2013}{2015}{MSc Extragalactic Astrophysics}{IAG-USP}{}{São Paulo, Brazil}{}
+%\tlcventry{2013}{2015}{MSc MAJOR}{SCHOOL}{}{}{}
 
 %\bigskip
 
-\tlcventry{2021}{0}{BSc Physics}{South Dakota Mines}{Rapid City, SD}{USA}{Focus in Particle Astrophysics}
+\tlcventry{2021}{0}{%
+  BSc Physics
+}{%
+  South Dakota Mines
+}{Rapid City, SD}{USA}{Focus in Particle Astrophysics}
 
 \bigskip
 
-\tlcventry{2017}{2021}{HS Diploma}{Douglas High School}{Box Elder, SD}{USA}{Graduated with Honors}
+\tlcventry{2017}{2021}{%
+  HS Diploma
+}{Douglas High School}{Box Elder, SD}{USA}{Graduated with Honors}
 
 \bigskip
 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                            THESES                         %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\section{Theses}
 
 %\medskip
 
 %\subsection{\textbf{PhD Thesis}}
 
-%\cvitem{\textbf{TITLE}}{The UV Emission in Early-Type Galaxies: A Modern Approach}
-%\cvitem{\textbf{ADVISOR}}{Professor Paula R. T. Coelho.}
-%\cvitem{\textbf{FUNDING AGENGY}}{Coordenação de Aperfeiçoamento de Pessoal de Nível Superior \newline (hereafter CAPES)}
+%\cvitem{\textbf{TITLE}}{}
+%\cvitem{\textbf{ADVISOR}}{}
+%\cvitem{\textbf{FUNDING AGENGY}}{}
 
 %\bigskip
 
 %\subsection{\textbf{MSc Thesis}}
 
-%\cvitem{\textbf{TITLE}}{The Relation Between the Spectral Synthesis of Galaxies in the Optical Region and Their UV Emission}
-%\cvitem{\textbf{ADVISOR}}{Professor Laerte Sodr\'e Jr.}
-%\cvitem{\textbf{FUNDING AGENGY}}{CAPES}
+%\cvitem{\textbf{TITLE}}{}
+%\cvitem{\textbf{ADVISOR}}{}
+%\cvitem{\textbf{FUNDING AGENGY}}{}
 
 %\bigskip
 
 %\subsection{\textbf{BSc Thesis}}
 
-%\cvitem{\textbf{TITLE}}{Infrared Photometry of Young Star Clusters}
-%\cvitem{\textbf{ADVISORS}}{Professors Jacques Lépine \& Roberto Ortiz}
+%\cvitem{\textbf{TITLE}}{}
+%\cvitem{\textbf{ADVISORS}}{}
 
 %\bigskip
 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                    RESEARCH PROJECTS                      %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Projects}
 
 \medskip
 
 \subsection{\textbf{Undergraduate Research Project}}
 
-\tlcventry{2023}{0}{Analysis of Emanation of $^{222}$Radon from Materials used in LUX-ZEPLIN and SuperCDMS}{}{}{}{}
+\tlcventry{2023}{0}{%
+  Analysis of Emanation of $^{222}$Radon
+  from Materials used in LUX-ZEPLIN and SuperCDMS
+}{}{}{}{}
 
 \cvitem{\textbf{ADVISOR}}{Dr. Richard Schnee}
 \cvitem{\textbf{FUNDING AGENGY}}{DOE Cosmic Frontier}
 
 \bigskip
 
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                    RESEARCH INTERESTS                     %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Interests}
 
-\cvitem{\textbf{\footnotesize{PARTICLE ASTROPHYSICS}}}{    
+\cvitem{}{%
     \begin{itemize}
-    \item Dark Matter-Higgs Interaction
-    \item Direct WIMP Detection
-    \item Low Radioactivity Techniques
+    \item Particle Astrophyics
+    \item Dark Matter
+    \item Low-Background Physics
     \item Physics Outside the Standard Model
     \end{itemize}
-    }
+}
 
-\cvitem{\textbf{OTHERS}}{
-    \begin{itemize}
-    \item Linux System Administration
-    \item Open-Source Software
-    \end{itemize}
-    }
+\medskip
 
 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                       AFFILIATIONS                        %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Affiliations}
-\subsection{Scientific}
+% \subsection{Scientific}
 
-\cvitem{\textbf{\footnotesize{USA}}}{American Physical Society}
+% \cvitem{\textbf{\footnotesize{USA}}}{American Physical Society}
 
-%\cvitem{\textbf{\footnotesize{INTERNATIONAL ASSOCIATIONS}}}{International Astrostatistics Association (\textbf{IAA}), Cosmostatistics Initiative (\textbf{COIN}), Javalambre Physics of the Accelerating Universe (\textbf{J-PAS})}
+%\cvitem{\textbf{\footnotesize{INTERNATIONAL ASSOCIATIONS}}}{%
+%     International Astrostatistics Association 
+%     (\textbf{IAA}), Cosmostatistics Initiative (\textbf{COIN}),
+%     Javalambre Physics of the Accelerating Universe (\textbf{J-PAS})
+% }
 
-\subsection{Other}
-\cvitem{}{Arch Linux (\url{https://www.archlinux.org/})}
+% \subsection{Other}
+% \cvitem{}{Arch Linux (\url{https://www.archlinux.org/})}
 \cvitem{}{South Dakota Youth Activism \newline (\url{http://www.sdya.org})}
 
-%\section{Teaching Experience}
-
-%\medskip
-
-%\subsection{Teaching Assistant}
-
-%\tldatecventry{2014}{Galactic and Extragalactic Astrophysics}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Ronaldo Eustáquio de Souza}
-%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
-
-%\bigskip
-
-%\tldatecventry{2014}{Topics on Astronomy to Undegraduate Students with Major in Pedagogy}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Nelson Vani Leister}
-%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
-
-%\tldatecventry{2010}{Topics on Astronomy to Geophysicists}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Enos Picazzio} \cvitem{\textbf{FUNDING AGENCY}}{None (volunteer tutoring)}
-
-%\bigskip
-
-%\tldatecventry{2010}{Position Astronomy}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Ramachrisna Teixeira}
-%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
-
-%\bigskip
-
-%\tldatecventry{2009}{Introduction to Astronomy}{IAG-USP}{São Paulo}{Brazil}{SUPERVISOR Professor Vera Jatenco Pereira}
-%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
-
-%\bigskip
 
 
-%\subsection{Outreach Projects}
-%\tlcventry{2010}{2011}{Astronomia Para Todos \emph{(Astronomy for Everybody)}}{\newline IAG-USP}{São Paulo}{Brazil}{}
 
-%\cvitem{\textbf{SUPERVISOR}}{Professor Enos Picazzio}
 
-%\cvitem{\textbf{DESCRIPTION}}{This project had as main goal to develop a book and a website in order to update and spread Astronomy topics to school teachers}
 
-%\cvitem{{\textbf{FUNDING AGENCY}}}{CNPq}
 
-%\bigskip
 
-%\subsection{Private Teaching}
 
-%\tlcventry{2007}{0}{Physics \& Mathematics}{}{}{}{Sporadic private teaching to school students (children and adolescents)}
 
-%\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                    Teaching Experience                    %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Teaching Experience}
 
+\medskip
+% 
+% 
+% 
+% 
+% 
+% \subsection{Teaching Assistant}
+% 
+% \tldatecventry{YYYY}{CLASS NAME}{SCHOOL NAME}{CITY}{NATION}{%
+% SUPERVISOR <Professor NAME>}
+% \cvitem{\textbf{FUNDING AGENCY}}{<NAME>}
+% 
+% \bigskip
+% 
+% \bigskip
+% 
+% 
+% \subsection{Outreach Projects}
+% 
+% \tlcventry{START}{END}{%
+%   NAME OF PROJECT
+% }{INSTITUTION}{CITY}{NATION}{}
+% 
+% \cvitem{\textbf{SUPERVISOR}}{Professor Enos Picazzio}
+% 
+% \cvitem{\textbf{DESCRIPTION}}{%
+% }
+% 
+% \cvitem{{\textbf{FUNDING AGENCY}}}{CNPq}
+% 
+% \bigskip
+ 
+\subsection{Private Tutoring}
+
+\tlcventry{2019}{0}{Mathematics}{}{}{}{%
+Sporadic private tutoring to school students (children and adolescents)
+}
+
+\bigskip
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                          LANGUAGES                        %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Languages}
 
 \cvitemwithcomment{English}{Native}{}
@@ -222,7 +308,13 @@
 
 \medskip
 
-\cvitemwithcomment{Tools}{GitHub, GitLab}{Program Version Control and Program Repositories.}
+\cvitemwithcomment{Tools}{%
+    Git
+}{%
+   Version Control 
+}
+
+
 
 \medskip
 
@@ -230,48 +322,225 @@
 
 \bigskip
 
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                      EVENTS PARTICIPATION                 %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Participation In Events}
 
 
-\tldatecventry{2024}{Student Research Symposium}{SD Mines}{Rapid City}{USA}{\textbf{POSTER TITLE} TBD} 
+\tldatecventry{2023}{%
+    Student Research Symposium
+  }{South Dakota Mines}{Rapid City}{USA}{%
+  \textbf{POSTER TITLE} 
+  \textit{%
+    Measurement of the Emanation of Radon-222 from Cathode High Voltage Tubing
+    for the LUX-ZEPLIN Dark Matter Experiment
+  }
+} 
+
+\tldatecventry{2024}{%
+    $1^{st}$ Large Language in Physics Symposium
+  }{DESY}{Hamburg}{Germany}{}
+
+\tldatecventry{2024}{%
+    Student Research Symposium
+  }{South Dakota Mines}{Rapid City}{USA}{%
+  \textbf{POSTER TITLE} 
+  \textit{%
+    Measurement of the Emanation of Radon-222 from Commercially Available
+    Silicone Sealants for the SuperCDMS Dark Matter Experiment
+  }
+}
+\bigskip
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                    EVENTS ORGANIZATION                    %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Event Organization}
+
+\tlcventry{2022}{0}{%
+    Go Skate Day! Punk Festival
+  }{Rapid City Gutter Shows}{Rapid City}{USA}{%
+    Annual music festival celebrating skateboarding and punk rock culture,
+    hosting musicians and bands from across the United States
+}
+
 
 \bigskip
 
-%\section{Event Organization}
 
-%\tldatecventry{2015}{$1^{st}$ Python Boot Camp}{IAG-USP}{São Paulo}{Brazil}{Member of the Local Organizing Committee and the Scientific Organizing Committee \\ For more information, please access the website:\\  \url{http://www.astro.iag.usp.br/~pythonbootcamp}.}
 
-%\bigskip
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                          OTHERS                           %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Other Professional Experiences}
 
-\tlcventry{2023}{0}{\textbf{Arch Linux Package Developer and Maintainer}}{\textit{Arch Linux Foundation}}{}{}{}
+\tlcventry{2023}{0}{%
+    \textbf{Arch Linux Package Developer and Maintainer}
+  }{%
+    \textit{Arch Linux Foundation}
+  }{}{}{}
 
-\tlcventry{2021}{0}{\textbf{Event Organizer and Promoter}}{Rapid City Gutter Shows}{Rapid City}{USA}{}
-%\section{Other Certificates}
 
+
+\tlcventry{2021}{0}{%
+    \textbf{Event Organizer and Promoter}
+  }{%
+    Rapid City Gutter Shows
+  }{Rapid City}{USA}{}
+
+
+  \tlcventry{2022}{2024}{%
+    \textbf{Director of Publications}
+  }{%
+    South Dakota Youth Activism
+  }{Sioux Falls}{USA}{}
+
+
+
+
+
+
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                          CERTIFICATES                     %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Certificates}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                          PUBLICATIONS                     %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\nocite{*}
 %\bibliographystyle{apalike}
 %\bibliography{publications}
 
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                          Talks                            %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\section{Invited Talks}
 
-%\tldatecventry{2016}{Is the cluster environment quenching the Seyfert activity in elliptical and spiral galaxies?}{Extragalactic Group Seminar}{IAG-USP}{S\~ao Paulo, Brazil}{}
+%\tldatecventry{YYYY}{%
+%   <TALK TITLE>
+% }{%
+%   <EVENT NAME>
+% }{%
+%   <ORGANIZATION>
+% }{%
+%   <LOCATION>
+% }{%
+%   <DESC(opt.)>
+% }
 
 %\medskip
 
-%\tldatecventry{2015}{Astrostatistics: An Arising Field in Astrophysics}{Journal Club}{IAG-USP}{S\~ao Paulo, Brazil}{}
 
-%\medskip
 
-%\tldatecventry{2013}{An Empirical Connection Between the UV Color of Early Type Galaxies and the Stellar Initial Mass Function}{Journal Club}{IAG-USP}{S\~ao Paulo, Brazil}{}
 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                          REFERENCES                       %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{References}
 
 \begin{cvcolumns}
-    \cvcolumn{Richard W. Schnee}{Professor \\ Physics Dept., SD Mines \\ Rapid City, USA \\ \emailsymbol richard.schnee@sdsmt.edu \\ \phonesymbol +1 605 394 5206}
-    \cvcolumn{Joseph Street}{Post-Doctoral Researcher \\ SD Mines \\ Rapid City, USA \\ \emailsymbol joseph.street@mines.sdsmt.edu }
+  \cvcolumn{%
+      Richard W. Schnee
+  }{%
+      Professor \\
+      Physics Dept., SD Mines \\
+      Rapid City, USA \\
+      \emailsymbol richard.schnee@sdsmt.edu \\
+      \phonesymbol +1 605 394 5206
+  }
+  \cvcolumn{%
+      Joseph Street
+  }{%
+      Post-Doctoral Researcher \\
+      Physics Dept., SD Mines \\
+      Rapid City, USA \\
+      \emailsymbol joseph.street@sdsmt.edu
+  }
 \end{cvcolumns}
+
+
+\begin{cvcolumns}
+  \cvcolumn{%
+      Chad Roth
+  }{%
+      Business Owner \\
+      Superior Siding \\
+      Rapid City, USA \\
+      % \emailsymbol emailaddress@servername.tld \\
+      \phonesymbol +1 605 390 6293 \\
+      \social[linkedin]{chad-roth-00a934163}
+  }
+  \cvcolumn{%
+      Ti Murphree
+  }{%
+      Sound Engineer \\
+      Rapid City Gutter Shows \\
+      Rapid City, USA \\
+      \emailsymbol timurphree30@gmail.com \\
+      \phonesymbol +1 605 431 9683
+  }
+\end{cvcolumns}
+
+
+
+% \begin{cvcolumns}
+%   \cvcolumn{%
+%       Name of Reference
+%   }{%
+%       Position Title \\
+%       Name of Dept., Institution \\
+%       LOCATION, Nation \\
+%       \emailsymbol emailaddress@servername.tld \\
+%       \phonesymbol +1 234 567 8900
+%   }
+%   \cvcolumn{%
+%       Name of Reference
+%   }{%
+%       Position Title \\
+%       Name of Dept., Institution \\
+%       LOCATION, Nation \\
+%       \emailsymbol emailaddress@servername.tld \\
+%       \phonesymbol +1 234 567 8900
+%   }
+% \end{cvcolumns}
 
 
 \clearpage
