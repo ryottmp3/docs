@@ -1,0 +1,51 @@
+!! = booked
+
+03/01 - FRI - pittsburg pa FRI
+03/02 - SAT - kent oh - zephyr pub? SAT
+03/03 - SUN - Sandusky OH - Strum Around? SUN
+03/04 - MON - Detroit MI - Smalls? MON
+03/05 - TUE - OFF DAY ?? TUES
+03/06 - WED - Indianapolis IN? WED
+03/07 - THU - Chicago IL? THURS
+03/08 - FRI - Kenosha or Milwaukee or Madison WI? FRI
+03/09 - SAT - Des Moines IA - Lefty's Livve Music? SAT
+03/10 - SUN - Sioux City IA - Lizzy Alexandria !! SUN
+03/11 - MON - Aberdeen SD - Red Rooster Coffee House !! MON
+03/12 - TUE - Rapid City SD - Gutter Shows TUES
+03/13 - WED - Casper WY - Bourgeoise Pig WED
+03/14 - THU - Pueblo CO - Jesse Hed THURS
+03/15 - FRI - Denver CO - Adam Kitchen FRI
+03/16 - SAT - Durango CO - Silas SAT
+03/17 - SUN - (SLC? Grand Junction? OFF?) SUN
+03/18 - MON - Boise? OFF? MON
+03/19 - TUE - Wenatchee WA TUES
+03/20 - WED - Chehalis WA WED
+03/21 - THU - Bend OR THURS
+03/22 - FRI - Tacoma WA FRI
+03/23 - SAT - Portland OR SAT
+03/24 - SUN - Eugene OR SUN
+03/25 - MON - OFF DAY!! MON
+03/26 - TUE - Arcata/Eureka CA??? TUES
+03/27 - WED - Colorado City CA?? WED
+03/28 - THU - Berkely CA THURS (off?)
+03/29 - FRI - Berkely CA FRI (off?)
+03/30 - SAT - Fresno CA SAT
+03/31 - SUN - Orange County CA 
+04/01 - MON - OFF DAY!! 
+04/02 - TUE - Los Angeles CA 
+04/03 - Athens GA - Flicker Theater
+04/04 - Charlotte NC asheville
+04/05 - Chapel Hill NC - Local 506 or The Cave
+04/06 - Roanoake VA - Fork in the Market
+04/07 - Fredericksburg VA 
+04/08 - Wahington DC - The Runaway
+04/09 - Baltimore MD - The Depot
+04/10 - Philidelphia PA 
+04/11 - Trenton NJ
+04/12 - New York City, NY
+04/13 - New Haven CT
+04/14 - Boston - Midway Café
+04/15 - Providence RI
+04/16 - Highlands NJ - The Chubby Pickle
+04/17 - Easton PA - Spin Me Round Records
+04/18 - Pittsburg PA
